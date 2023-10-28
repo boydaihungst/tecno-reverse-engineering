@@ -1,0 +1,45 @@
+package com.android.server.wm;
+/* loaded from: classes2.dex */
+public class ActivityTaskManagerDebugConfig {
+    static final String TAG_ATM = "ActivityTaskManager";
+    static final boolean TAG_WITH_CLASS_NAME = false;
+    public static boolean APPEND_CATEGORY_NAME = false;
+    public static boolean DEBUG_ALL = false;
+    public static boolean DEBUG_ALL_ACTIVITIES = false;
+    public static boolean DEBUG_RECENTS = false;
+    public static boolean DEBUG_RECENTS_TRIM_TASKS = false;
+    public static boolean DEBUG_ROOT_TASK = false;
+    public static boolean DEBUG_SWITCH = false;
+    public static boolean DEBUG_TRANSITION = false;
+    public static boolean DEBUG_VISIBILITY = false;
+    public static boolean DEBUG_APP = false;
+    public static boolean DEBUG_IDLE = false;
+    public static boolean DEBUG_RELEASE = false;
+    public static boolean DEBUG_USER_LEAVING = false;
+    public static boolean DEBUG_PERMISSIONS_REVIEW = false;
+    public static boolean DEBUG_RESULTS = false;
+    public static boolean DEBUG_ACTIVITY_STARTS = false;
+    public static boolean DEBUG_CLEANUP = false;
+    public static boolean DEBUG_METRICS = false;
+    static final String POSTFIX_APP = "";
+    static final String POSTFIX_CLEANUP = "";
+    static final String POSTFIX_IDLE = "";
+    static final String POSTFIX_RELEASE = "";
+    static final String POSTFIX_USER_LEAVING = "";
+    static final String POSTFIX_ADD_REMOVE = "";
+    public static final String POSTFIX_CONFIGURATION = "";
+    static final String POSTFIX_CONTAINERS = "";
+    static final String POSTFIX_FOCUS = "";
+    static final String POSTFIX_IMMERSIVE = "";
+    public static final String POSTFIX_LOCKTASK = "";
+    static final String POSTFIX_PAUSE = "";
+    static final String POSTFIX_RECENTS = "";
+    static final String POSTFIX_SAVED_STATE = "";
+    static final String POSTFIX_ROOT_TASK = "";
+    static final String POSTFIX_STATES = "";
+    public static final String POSTFIX_SWITCH = "";
+    static final String POSTFIX_TASKS = "";
+    static final String POSTFIX_TRANSITION = "";
+    static final String POSTFIX_VISIBILITY = "";
+    static final String POSTFIX_RESULTS = "";
+}

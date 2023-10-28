@@ -1,0 +1,32 @@
+package com.transsion.hubcore.server.defrag;
+
+import android.content.Context;
+import com.android.server.pm.Installer;
+import com.transsion.hubcore.server.defrag.ITranDefragService;
+import com.transsion.hubcore.utils.TranClassInfo;
+import java.util.function.Supplier;
+/* loaded from: classes2.dex */
+public interface ITranDefragService {
+    public static final TranClassInfo<ITranDefragService> classInfo = new TranClassInfo<>("com.transsion.hubcore.server.defrag.TranDefragServiceImpl", ITranDefragService.class, new Supplier() { // from class: com.transsion.hubcore.server.defrag.ITranDefragService$$ExternalSyntheticLambda0
+        @Override // java.util.function.Supplier
+        public final Object get() {
+            return new ITranDefragService.DefaultImpl();
+        }
+    });
+
+    /* loaded from: classes2.dex */
+    public static class DefaultImpl implements ITranDefragService {
+    }
+
+    static ITranDefragService Instance() {
+        return (ITranDefragService) classInfo.getImpl();
+    }
+
+    default ITranDefragService initialize(Context context, Installer installer) {
+        return null;
+    }
+
+    default TranDefragServiceManager getDefragServiceManager() {
+        return new TranDefragServiceManager();
+    }
+}
